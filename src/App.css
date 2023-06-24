@@ -1,0 +1,148 @@
+* {
+  text-align: center;
+}
+
+/* Handson 8 Start */
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li Link {
+  text-decoration: none;
+  color: aqua;
+}
+.handson_eight {
+  border-radius: 20px;
+  background-color: #969696;
+  margin: 1rem;
+  padding: 0 0 0.5rem 0;
+  max-width: 450px;
+}
+
+.handson_eight > h1 {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #777;
+}
+
+.countBox {
+  border-radius: 15px;
+  background-color: #fff;
+  align-self: center;
+  justify-self: center;
+  width: 60%;
+  padding: 1rem;
+  margin: 1rem 3rem;
+  font-size: 30px;
+}
+
+.button {
+  color: #fff;
+  background-color: #222;
+  border: solid 1px #222;
+  margin: 0.5rem;
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 1px 1px gray;
+  transition: 0.5 ease-in-out;
+  font-weight: 500;
+}
+
+.button:hover {
+  color: #222;
+  background-color: aliceblue;
+  scale: 1.08;
+}
+
+.currency_converter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #777;
+}
+
+.amount,
+.currency {
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  background-color: #999;
+  border: none;
+  display: flex-end;
+  justify-content: center;
+  height: 40px;
+  min-width: 70%;
+}
+
+/* Handson 8 - End */
+
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
